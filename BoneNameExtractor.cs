@@ -68,8 +68,10 @@ namespace BoneNameExtractor
                 "------Options------\n" +
                 "<RightFootToe>NONE</RightFootToe>\n" +
                 "<LeftFootToe>NONE</LeftFootToe>\n" +
-                "<RightBreast>NONE</RightBreast>\n" +
-                "<LeftBreast>NONE</LeftBreast>\n";
+                "<RightBreastRoot>NONE</RightBreastRoot>\n" +
+                "<RightBreastEnd>NONE</RightBreastEnd>\n" +
+                "<LeftBreastRoot>NONE</LeftBreastRoot>\n" +
+                "<LeftBreastEnd>NONE</LeftBreastEnd>\n";
             Debug.Log(logs);
         }
     }
