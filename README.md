@@ -12,4 +12,4 @@ BoneRenamer https://github.com/Azukimochi/BoneRenamer
 ![image](https://user-images.githubusercontent.com/103747350/228157069-d8443dc0-65fe-42ea-a9eb-f28270210d56.png)
 
 #### Option. BreastボーンとToeボーンがある場合には手動で書き込む
-
+＊大体のアバターで存在するが、UnityのHumanoid Rigにボーンが存在しないためマニュアルに落ち着いてます
