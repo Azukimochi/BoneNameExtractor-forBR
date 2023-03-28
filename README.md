@@ -9,5 +9,7 @@ BoneRenamer https://github.com/Azukimochi/BoneRenamer
 
 #### 2. コンソールにボーン情報が出力されているのを確認  
   
-![image](https://user-images.githubusercontent.com/103747350/228151288-5af04ee3-5fcb-453b-b22c-5ecf28bf976d.png)
+![image](https://user-images.githubusercontent.com/103747350/228157069-d8443dc0-65fe-42ea-a9eb-f28270210d56.png)
 
+#### Option. BreastボーンとToeボーンがある場合には手動で書き込む
+＊大体のアバターで存在するが、UnityのHumanoid Rigにボーンが存在しないためマニュアルに落ち着いてます
