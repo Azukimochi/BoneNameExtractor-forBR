@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
@@ -47,7 +47,7 @@ namespace BoneNameExtractor
         private void BoneNameExtract()
         {
 
-            logs = $"<NAME>{HumanoidAnimator.name}</NAME>";
+            logs = $"<NAME>{HumanoidAnimator.name}</NAME>\n";
 
             foreach (HumanBodyBones bone in Enum.GetValues(typeof(HumanBodyBones)))
             {
@@ -64,7 +64,12 @@ namespace BoneNameExtractor
 
                 logs = logs + $"<{boneID}>{boneName}</{boneID}>\n";
             }
-
+            logs = logs +
+                "------Options------\n" +
+                "<RightFootToe>NONE</RightFootToe>\n" +
+                "<LeftFootToe>NONE</LeftFootToe>\n" +
+                "<RightBreast>NONE</RightBreast>\n" +
+                "<LeftBreast>NONE</LeftBreast>\n";
             Debug.Log(logs);
         }
     }
