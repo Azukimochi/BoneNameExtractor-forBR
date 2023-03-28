@@ -66,8 +66,6 @@ namespace BoneNameExtractor
             }
             logs = logs +
                 "------Options------\n" +
-                "<RightFootToe>NONE</RightFootToe>\n" +
-                "<LeftFootToe>NONE</LeftFootToe>\n" +
                 "<RightBreastRoot>NONE</RightBreastRoot>\n" +
                 "<RightBreastEnd>NONE</RightBreastEnd>\n" +
                 "<LeftBreastRoot>NONE</LeftBreastRoot>\n" +
