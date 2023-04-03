@@ -67,8 +67,10 @@ namespace BoneNameExtractor
             logs = logs +
                 "------Options------\n" +
                 "<RightBreastRoot>NONE</RightBreastRoot>\n" +
+                "<RightBreastMid>NONE</RightBreastMid>\n" +
                 "<RightBreastEnd>NONE</RightBreastEnd>\n" +
                 "<LeftBreastRoot>NONE</LeftBreastRoot>\n" +
+                "<LeftBreastMid>NONE</LeftBreastMid>\n" +
                 "<LeftBreastEnd>NONE</LeftBreastEnd>\n";
             Debug.Log(logs);
         }
